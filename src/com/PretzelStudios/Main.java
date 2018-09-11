@@ -12,7 +12,7 @@ public class Main {
         writeMiddle();
         System.out.println();
         writeTop();
-        System.out.println("|   STOP   |");
+        System.out.println("|  STOP   |");
         writeBottom();
         System.out.println();
         writeTop();
