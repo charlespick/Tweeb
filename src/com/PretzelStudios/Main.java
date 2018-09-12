@@ -18,7 +18,32 @@ public class Main {
         writeTop();
         writeMiddle();
         System.out.println("\\ / \\\\ // \\\\\\ /// ?");
+<<<<<<< HEAD
 
+
+        String str = "This is a sentence";
+
+        System.out.println(str.substring(0, 5));
+        System.out.println(str.substring(str.length() - 5));
+
+        int firstNum = 1;
+        int secondNum = 2;
+        int thirdNum;
+
+        System.out.println(firstNum);
+        System.out.println(secondNum);
+        int i = 0;
+        while (i < 100) {
+            thirdNum = firstNum + secondNum;
+            System.out.println(thirdNum);
+            firstNum = secondNum;
+            secondNum = thirdNum;
+            i = i + 1;
+        }
+
+
+=======
+>>>>>>> aa6305e299e4eff0a9565f5865cda9d7b7643d3d
     }
 
 
