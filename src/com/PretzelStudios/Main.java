@@ -18,7 +18,6 @@ public class Main {
         writeTop();
         writeMiddle();
         System.out.println("\\ / \\\\ // \\\\\\ /// ?");
-
     }
 
 
