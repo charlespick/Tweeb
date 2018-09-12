@@ -19,6 +19,7 @@ public class Main {
         writeMiddle();
         System.out.println("\\ / \\\\ // \\\\\\ /// ?");
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         String str = "This is a sentence";
@@ -42,6 +43,8 @@ public class Main {
         }
 
 
+=======
+>>>>>>> aa6305e299e4eff0a9565f5865cda9d7b7643d3d
 =======
 >>>>>>> aa6305e299e4eff0a9565f5865cda9d7b7643d3d
     }
