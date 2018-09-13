@@ -18,8 +18,6 @@ public class Main {
         writeTop();
         writeMiddle();
         System.out.println("\\ / \\\\ // \\\\\\ /// ?");
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
         String str = "This is a sentence";
@@ -42,12 +40,46 @@ public class Main {
             i = i + 1;
         }
 
+print2Rockets();
 
-=======
->>>>>>> aa6305e299e4eff0a9565f5865cda9d7b7643d3d
-=======
->>>>>>> aa6305e299e4eff0a9565f5865cda9d7b7643d3d
+
+
+
     }
+
+public static void printRivets() {
+    System.out.println(" +------+  +------+ ");
+}
+public static void printCone() {
+    System.out.println("    /\\        /\\   ");
+    System.out.println("   /  \\      /  \\  ");
+    System.out.println("  /    \\    /    \\ ");
+    }
+public static void printBody() {
+    for (int i = 0; i<2 ; i++){
+        System.out.println(" |      |  |      |");
+    }
+}
+public static void printLogoBody() {
+    System.out.println(" |United|  |United|");
+    System.out.println(" |States|  |States|");
+}
+    public static void print2Rockets(){
+printCone();
+printRivets();
+printBody();
+printRivets();
+printLogoBody();
+printRivets();
+printBody();
+printRivets();
+printCone();
+
+    }
+
+
+
+
 
 
     public static void writeTop() {
