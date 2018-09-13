@@ -21,14 +21,12 @@ public class Main {
 
 
         String str = "This is a sentence";
-
         System.out.println(str.substring(0, 5));
         System.out.println(str.substring(str.length() - 5));
 
         int firstNum = 1;
         int secondNum = 2;
         int thirdNum;
-
         System.out.println(firstNum);
         System.out.println(secondNum);
         int i = 0;
@@ -40,45 +38,11 @@ public class Main {
             i = i + 1;
         }
 
-print2Rockets();
+        Rockets.print2Rockets();
 
 
-
-
+        convertTemps();
     }
-
-public static void printRivets() {
-    System.out.println(" +------+  +------+ ");
-}
-public static void printCone() {
-    System.out.println("    /\\        /\\   ");
-    System.out.println("   /  \\      /  \\  ");
-    System.out.println("  /    \\    /    \\ ");
-    }
-public static void printBody() {
-    for (int i = 0; i<2 ; i++){
-        System.out.println(" |      |  |      |");
-    }
-}
-public static void printLogoBody() {
-    System.out.println(" |United|  |United|");
-    System.out.println(" |States|  |States|");
-}
-    public static void print2Rockets(){
-printCone();
-printRivets();
-printBody();
-printRivets();
-printLogoBody();
-printRivets();
-printBody();
-printRivets();
-printCone();
-
-    }
-
-
-
 
 
 
@@ -95,6 +59,11 @@ printCone();
 
     public static void writeMiddle() {
         System.out.println("+---------+");
+    }
+
+    public static void convertTemps() {
+        System.out.println("36f is: " + Temperatures.convertToC(36) + "C");
+        System.out.println("13c is: " + Temperatures.convertToF(13) + "F");
     }
 
 }
