@@ -1,23 +1,23 @@
 package com.PretzelStudios;
 
 public class Rockets {
-    public static void printRivets() {
+    private static void printRivets() {
         System.out.println(" +------+  +------+ ");
     }
 
-    public static void printCone() {
+    private static void printCone() {
         System.out.println("    /\\        /\\   ");
         System.out.println("   /  \\      /  \\  ");
         System.out.println("  /    \\    /    \\ ");
     }
 
-    public static void printBody() {
+    private static void printBody() {
         for (int i = 0; i < 2; i++) {
             System.out.println(" |      |  |      |");
         }
     }
 
-    public static void printLogoBody() {
+    private static void printLogoBody() {
         System.out.println(" |United|  |United|");
         System.out.println(" |States|  |States|");
     }
