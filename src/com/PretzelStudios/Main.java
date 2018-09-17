@@ -15,9 +15,9 @@ public class Main {
         System.out.println(str.substring(0, 5));
         System.out.println(str.substring(str.length() - 5));
 
-        int firstNum = 1;
-        int secondNum = 2;
-        int thirdNum;
+        long firstNum = 1;
+        long secondNum = 2;
+        long thirdNum;
         System.out.println(firstNum);
         System.out.println(secondNum);
         int i = 0;
@@ -32,6 +32,7 @@ public class Main {
         Rockets.print2Rockets();
 
         convertTemps();
+        System.out.println('e'-'A');
 
     }
 
